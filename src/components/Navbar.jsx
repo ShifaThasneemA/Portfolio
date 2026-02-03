@@ -13,13 +13,20 @@ function Navbar() {
       </div>
 
       <ul className="nav-center">
-        <li>Objective</li>
-        <li>Skills</li>
-        <li>Certifications</li>
-        <li>Projects</li>
-        <li>Achievements</li>
-        <li>Contact</li>
-      </ul>
+  <li onClick={() => document.getElementById("objective").scrollIntoView({ behavior: "smooth" })}>Objective</li>
+  <li onClick={() =>
+  document.getElementById("skills")
+    .scrollIntoView({ behavior: "smooth" })
+}>
+  Skills
+</li>
+
+  <li>Certifications</li>
+  <li>Projects</li>
+  <li>Achievements</li>
+  <li>Contact</li>
+</ul>
+
 
       <button className="admin-btn">Admin Login</button>
     </nav>
