@@ -29,7 +29,7 @@ function AdminCertificates() {
   };
 
   const del = async (id) => {
-    await fetch(`http://localhost:5000/api/certificates/${id}`, { method: "DELETE" });
+    await fetch(`https://portfolio-ik0b.onrender.com//${id}`, { method: "DELETE" });
     load();
   };
 
