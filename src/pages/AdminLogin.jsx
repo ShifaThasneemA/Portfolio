@@ -14,7 +14,7 @@ function AdminLogin() {
     setMessage("");
 
     try {
-      const res = await fetch("https://portfolio-ik0b.onrender.com/", {
+      const res = await fetch("https://portfolio-ik0b.onrender.com/api/admin/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
