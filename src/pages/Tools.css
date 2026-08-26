@@ -1,0 +1,209 @@
+/* =========================
+   TOOLS PAGE
+========================= */
+
+.tools-section {
+  min-height: calc(100vh - 100px);
+  padding: 75px 8%;
+  background: #050a1c;
+  color: white;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.tools-header {
+  max-width: 850px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.tools-tag {
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: #7da4d8;
+}
+
+.tools-header h1 {
+  margin: 15px 0;
+  font-size: 46px;
+  color: white;
+}
+
+.tools-header p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #b8c4d9;
+}
+
+
+/* =========================
+   TOOLS GRID
+========================= */
+
+.tools-grid {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+
+/* =========================
+   TOOL CARD
+========================= */
+
+.tool-card {
+  min-height: 290px;
+
+  padding: 28px;
+
+  border-radius: 22px;
+
+  background: linear-gradient(
+    180deg,
+    #fff4c7 0%,
+    #ffd24d 100%
+  );
+
+  border: 3px solid #f5b82e;
+
+  color: #07112d;
+
+  box-sizing: border-box;
+
+  transition: 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+
+/* =========================
+   TOP
+========================= */
+
+.tool-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.tool-number {
+  font-size: 14px;
+  font-weight: 800;
+  color: #777;
+}
+
+.tool-category {
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+  color: #31558a;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.tool-card h2 {
+  margin: 0 0 15px;
+
+  font-size: 26px;
+
+  color: #07112d;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.tool-card p {
+  margin: 0;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+
+  color: #263653;
+}
+
+
+/* =========================
+   BOTTOM
+========================= */
+
+.tool-line {
+  height: 2px;
+
+  width: 100%;
+
+  margin: 25px 0 15px;
+
+  background: rgba(7, 17, 45, 0.2);
+}
+
+.tool-label {
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  color: #174ea6;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1050px) {
+
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .tools-section {
+    padding: 55px 5%;
+  }
+
+  .tools-header h1 {
+    font-size: 35px;
+  }
+
+  .tools-header p {
+    font-size: 15px;
+  }
+
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+
+}

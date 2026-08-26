@@ -6,6 +6,8 @@ import Objective from "./pages/Objective";
 import Skills from "./pages/Skills";
 import Certifications from "./pages/Certifications";
 import Projects from "./pages/Projects";
+import Internship from "./pages/Internship";
+import Tools from "./pages/Tools";
 import Contact from "./pages/Contact";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
@@ -22,6 +24,8 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/certifications" element={<Certifications />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/internship" element={<Internship />} />
+        <Route path="/tools" element={<Tools />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />

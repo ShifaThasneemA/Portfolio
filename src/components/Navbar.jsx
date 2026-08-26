@@ -22,7 +22,10 @@ function Navbar() {
         <li><Link to="/skills">Skills</Link></li>
         <li><Link to="/certifications">Certifications</Link></li>
         <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/internship">Internship</Link></li>
+        <li><Link to="/tools">Tools</Link></li>
         <li><Link to="/contact">Contact</Link></li>
+        
       </ul>
 
       {/* RIGHT */}
